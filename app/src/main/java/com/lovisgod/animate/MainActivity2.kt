@@ -27,7 +27,7 @@ class MainActivity2 : AppCompatActivity() {
              }
 
              override fun onTransitionCompleted(p0: MotionLayout?, p1: Int) {
-                 startActivity(Intent(this@MainActivity2, MainActivity::class.java))
+                 startActivity(Intent(this@MainActivity2, HeaderAnimation::class.java))
              }
 
          })
